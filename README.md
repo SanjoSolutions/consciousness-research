@@ -1,2 +1,3 @@
-# consciousness-research
-Consciousness Research based on the teaching of David R. Hawkins
+# Consciousness Research
+
+Consciousness Research based on the teaching of David R. Hawkins.
