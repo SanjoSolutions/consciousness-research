@@ -1,0 +1,1021 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[     44900,       1013]
+NotebookOptionsPosition[     42976,        976]
+NotebookOutlinePosition[     43366,        992]
+CellTagsIndexPosition[     43323,        989]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+    "In", " ", "the", " ", "name", " ", "of", " ", "the", " ", "highest", " ",
+      "good"}], ",", " ", 
+    RowBox[{
+    "I", " ", "have", " ", "permission", " ", "to", " ", "calibrate", " ", 
+     "the", " ", "consciousness", " ", "level", " ", "of", " ", "\[Ellipsis]",
+      " ", "calibrates", " ", "as", " ", 
+     RowBox[{"true", "."}]}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+    "In", " ", "the", " ", "name", " ", "of", " ", "the", " ", "highest", " ",
+      "good"}], ",", " ", 
+    RowBox[{
+    "\[Ellipsis]", " ", "calibrates", " ", "at", " ", "or", " ", "above", " ",
+      "200."}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"At", " ", "or", " ", "above", " ", "300."}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"At", " ", "or", " ", "above", " ", "400."}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"At", " ", "or", " ", "above", " ", "500."}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"At", " ", "or", " ", "above", " ", "600."}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"At", " ", "or", " ", "above", " ", "700."}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"At", " ", "or", " ", "above", " ", "800."}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"At", " ", "or", " ", "above", " ", "900."}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"At", " ", "or", " ", "above", " ", "1000."}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"At", " ", "or", " ", "above", " ", "1100."}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"At", " ", "or", " ", "above", " ", "1200."}], " ", "*)"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"Open", " ", "for", " ", 
+    RowBox[{"calibration", ":"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", "   ", "Eternal", " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", "   ", "Selective", " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", "   ", "Nonegoistic", " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"consciousnessCalibrations", "=", 
+    RowBox[{"{", "\[IndentingNewLine]", 
+     RowBox[{"(*", " ", 
+      RowBox[{"Formats", ":"}], " ", "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"(*", "   ", "Integer", " ", "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"(*", "   ", "Real", " ", "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"(*", "   ", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Integer", "|", "Real"}], ",", " ", "\"\<+\>\""}], "}"}], 
+       " ", 
+       RowBox[{"(", 
+        RowBox[{"starting", " ", "from"}], ")"}]}], " ", "*)"}], 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", "   ", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Integer", "|", "Real"}], ",", " ", "\"\<>\>\""}], "}"}], 
+       " ", 
+       RowBox[{"(", "above", ")"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"(*", "   ", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Integer", "|", "Real"}], ",", " ", "\"\<>=\>\""}], "}"}], 
+       " ", 
+       RowBox[{"(", 
+        RowBox[{"at", " ", "or", " ", "above"}], ")"}]}], " ", "*)"}], 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", "   ", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Integer", "|", "Real"}], ",", " ", 
+         RowBox[{"Integer", "|", "Real"}]}], "}"}], " ", 
+       RowBox[{"(", 
+        RowBox[{"from", " ", "inclusive", " ", "to", " ", "inclusive"}], 
+        ")"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"(*", "   ", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Integer", "|", "Real"}], ",", " ", 
+         RowBox[{"Integer", "|", "Real"}], ",", " ", "\"\<(a,b)\>\""}], "}"}],
+        " ", 
+       RowBox[{"(", 
+        RowBox[{"open", " ", "interval"}], ")"}]}], " ", "*)"}], 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", "   ", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Integer", "|", "Real"}], ",", " ", 
+         RowBox[{"Integer", "|", "Real"}], ",", " ", "\"\<[a,b)\>\""}], "}"}],
+        " ", 
+       RowBox[{"(", 
+        RowBox[{"half", "-", 
+         RowBox[{
+         "open", " ", "interval", " ", "on", " ", "the", " ", "right"}]}], 
+        ")"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"(*", "   ", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Integer", "|", "Real"}], ",", " ", 
+         RowBox[{"Integer", "|", "Real"}], ",", " ", "\"\<(a,b]\>\""}], "}"}],
+        " ", 
+       RowBox[{"(", 
+        RowBox[{"half", "-", 
+         RowBox[{
+         "open", " ", "interval", " ", "on", " ", "the", " ", "left"}]}], 
+        ")"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"\"\<God\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<God the Father\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<The Creator\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<The Almighty\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Maker of Heaven and Earth\>\"", ",", "\[Infinity]"}], 
+       "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Ruler of the Universe\>\"", ",", "\[Infinity]"}], "}"}], 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Maker of All Things Visible and Invisible\>\"", ",", 
+        "\[Infinity]"}], "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Omnipotent, Omniscient, and Omnipresent\>\"", ",", 
+        "\[Infinity]"}], "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<The Supreme\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Source of All Life and Existence\>\"", ",", "\[Infinity]"}], 
+       "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<The Holy Spirit\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Allah\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<AN (Dravidian \[Dash] early Hindu)\>\"", ",", "\[Infinity]"}], 
+       "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Shiva\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Kirshna\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Brahma\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Vishnu\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Durga\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Isvara\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Rama\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<God of Moses and Abraham\>\"", ",", "\[Infinity]"}], 
+       "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<The Christ\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Christ Consciousness\>\"", ",", "\[Infinity]"}], "}"}], 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Christ as God Incarnate\>\"", ",", "\[Infinity]"}], "}"}],
+       ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Purusha\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Self\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Atman\>\"", ",", "\[Infinity]"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Archangles\>\"", ",", 
+        RowBox[{"{", 
+         RowBox[{"50000", ",", "\"\<+\>\""}], "}"}]}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Integrity of purpose\>\"", ",", 
+        RowBox[{"{", 
+         RowBox[{"1100", ",", "1200"}], "}"}]}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Buddha Nature (as Allness)\>\"", ",", 
+        RowBox[{"{", 
+         RowBox[{"1000", ",", "\"\<+\>\""}], "}"}]}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Buddha Nature (as Void)\>\"", ",", " ", "980"}], "}"}], 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Karma\>\"", ",", " ", "979.8"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Native American Great Spirit\>\"", ",", 
+        RowBox[{"{", 
+         RowBox[{"850", ",", "\"\<+\>\""}], "}"}]}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Surrender (at depth) one's will to God\>\"", ",", "850"}],
+        "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Non-attachment\>\"", ",", 
+        RowBox[{"{", 
+         RowBox[{"800", ",", " ", "\"\<>\>\""}], "}"}]}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Om (pronounced \:014dm)\>\"", ",", "740"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Deity\>\"", ",", "720"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Shanti Shanti Shanti\>\"", ",", "650"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Twelve Steps of Alcoholics Anonymous\>\"", ",", "540"}], 
+       "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<What is held in mind tends to manifest\>\"", ",", "505"}],
+        "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Angles\>\"", ",", 
+        RowBox[{"{", 
+         RowBox[{"500", ",", "\"\<+\>\""}], "}"}]}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Yahweh (Yewah)\>\"", ",", "460"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Word \\\"God\\\" as intellectual concept\>\"", ",", "460"}], 
+       "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<E=mc\.b2\>\"", ",", "455"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Technology\>\"", ",", 
+        RowBox[{"{", 
+         RowBox[{"400", ",", "500", ",", "\"\<[a,b)\>\""}], "}"}]}], "}"}], 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Jehovah\>\"", ",", "205"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Tampermonkey\>\"", ",", 
+        RowBox[{"{", 
+         RowBox[{"200", ",", "300", ",", "\"\<(a,b)\>\""}], "}"}]}], "}"}], 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<The future doesn't exist.\>\"", ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"200", ",", "\"\<>=\>\""}], "}"}], ",", 
+        "\"\<Source: https://veritaspub.com/faqs/#12\>\""}], 
+       "\[IndentingNewLine]", "}"}]}], "\[IndentingNewLine]", "}"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+    "consciousnessCalibration", "[", "stringOrStringExpression_", "]"}], ":=", 
+    RowBox[{"Select", "[", 
+     RowBox[{"consciousnessCalibrations", ",", 
+      RowBox[{
+       RowBox[{"StringMatchQ", "[", 
+        RowBox[{
+         RowBox[{"#", "[", 
+          RowBox[{"[", "1", "]"}], "]"}], ",", "stringOrStringExpression"}], 
+        "]"}], "&"}]}], "]"}]}], "\[IndentingNewLine]", 
+   RowBox[{"consciousnessCalibration", "[", "\"\<God\>\"", "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"consciousnessCalibration", "[", 
+    RowBox[{"\"\<God\>\"", "~~", "___"}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{"consciousnessCalibration", "[", 
+    RowBox[{"___", "~~", "\"\<the Father\>\""}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "consciousnessCalibration", "[", "\"\<Integrity of purpose\>\"", "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"consciousnessCalibration", "[", "\"\<Archangles\>\"", "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"consciousnessCalibration", "[", 
+    RowBox[{"___", "~~", 
+     RowBox[{"(", 
+      RowBox[{"\"\<A\>\"", "|", "\"\<a\>\""}], ")"}], "~~", "\"\<ngles\>\""}],
+     "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.805700067267818*^9, 3.805700208372733*^9}, {
+   3.805700351509184*^9, 3.80570036854838*^9}, {3.805700403855275*^9, 
+   3.805700454807275*^9}, {3.805700614529611*^9, 3.805700623527684*^9}, {
+   3.805700915591256*^9, 3.805700930654689*^9}, {3.8057010408298492`*^9, 
+   3.805701086175106*^9}, {3.80570113702258*^9, 3.8057011696220284`*^9}, {
+   3.805701214952694*^9, 3.8057012322329483`*^9}, {3.805701458903873*^9, 
+   3.805701465006402*^9}, {3.805701557054995*^9, 3.8057015714301567`*^9}, {
+   3.805702195695819*^9, 3.805702271707375*^9}, {3.805702395063772*^9, 
+   3.80570247492577*^9}, {3.805702545354121*^9, 3.805702750358034*^9}, {
+   3.805702791795691*^9, 3.805702851092763*^9}, {3.805702939130085*^9, 
+   3.805702946241963*^9}, {3.805702993733117*^9, 3.80570301115769*^9}, {
+   3.805703156843565*^9, 3.805703193579864*^9}, {3.805703260096507*^9, 
+   3.8057033704227962`*^9}, {3.8057034436429377`*^9, 3.805703469644394*^9}, {
+   3.805703499962582*^9, 3.80570350873125*^9}, {3.8057035961896057`*^9, 
+   3.805703661624135*^9}, {3.805703738997422*^9, 3.805703784703855*^9}, {
+   3.805703980272752*^9, 3.805703993008931*^9}, {3.805704052803321*^9, 
+   3.8057040673557167`*^9}, {3.8057041115830593`*^9, 
+   3.8057044290896597`*^9}, {3.8057044931491747`*^9, 3.805704522392723*^9}, {
+   3.8057045656201763`*^9, 3.805704637809568*^9}, {3.805704974929294*^9, 
+   3.805705012632264*^9}, {3.805705092191662*^9, 3.805705164173325*^9}, {
+   3.805705200075437*^9, 3.805705252812624*^9}, {3.805705370063986*^9, 
+   3.805705422039432*^9}, {3.805705456691537*^9, 3.805705464625386*^9}, {
+   3.805705532009487*^9, 3.805705537127369*^9}, {3.8057056144456778`*^9, 
+   3.805705645044639*^9}, 3.8057067033328648`*^9, {3.805706752277493*^9, 
+   3.805707192967331*^9}, {3.80570723227159*^9, 3.805707242730549*^9}, {
+   3.8057072792122087`*^9, 3.8057073623050117`*^9}, {3.805708082476356*^9, 
+   3.8057081459692373`*^9}, {3.805708228296948*^9, 3.805708239649065*^9}, 
+   3.8057085049867687`*^9, {3.805708664731883*^9, 3.805708666002735*^9}, {
+   3.805709024186639*^9, 3.805709048222363*^9}, {3.8057095504265947`*^9, 
+   3.80570955821021*^9}, 3.8057097076401873`*^9, {3.805709761238296*^9, 
+   3.8057097866528397`*^9}, {3.805709842975123*^9, 3.80570986636801*^9}, {
+   3.805709908980352*^9, 3.805709922012699*^9}, {3.805709963944985*^9, 
+   3.805710000321639*^9}, {3.805710321384753*^9, 3.8057103442868347`*^9}, {
+   3.805719620263792*^9, 3.805719648075714*^9}, {3.805725108199204*^9, 
+   3.805725165331016*^9}, {3.805725222324668*^9, 3.805725298299808*^9}, {
+   3.805802581097828*^9, 3.8058025927674427`*^9}, {3.805988196319539*^9, 
+   3.80598821582895*^9}, {3.805988255545043*^9, 3.80598831717869*^9}, {
+   3.805988412083219*^9, 3.805988444171867*^9}, {3.8059884956523123`*^9, 
+   3.805988513414523*^9}, {3.805989101026017*^9, 3.8059891287553787`*^9}, {
+   3.806571288036627*^9, 
+   3.806571298144031*^9}},ExpressionUUID->"5f81e561-3b73-4210-9bdd-\
+aa65082de32f"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\<\"God\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"God the Father\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"The Creator\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"The Almighty\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Maker of Heaven and Earth\"\>", ",", "\[Infinity]"}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Ruler of the Universe\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Maker of All Things Visible and Invisible\"\>", ",", 
+     "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Omnipotent, Omniscient, and Omnipresent\"\>", ",", 
+     "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"The Supreme\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Source of All Life and Existence\"\>", ",", "\[Infinity]"}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"The Holy Spirit\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Allah\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"AN (Dravidian \[Dash] early Hindu)\"\>", ",", 
+     "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Shiva\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Kirshna\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Brahma\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Vishnu\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Durga\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Isvara\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Rama\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"God of Moses and Abraham\"\>", ",", "\[Infinity]"}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"The Christ\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Christ Consciousness\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   
+   RowBox[{"{", 
+    RowBox[{"\<\"Christ as God Incarnate\"\>", ",", "\[Infinity]"}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Purusha\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Self\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Atman\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Archangles\"\>", ",", 
+     RowBox[{"{", 
+      RowBox[{"50000", ",", "\<\"+\"\>"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Integrity of purpose\"\>", ",", 
+     RowBox[{"{", 
+      RowBox[{"1100", ",", "1200"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Buddha Nature (as Allness)\"\>", ",", 
+     RowBox[{"{", 
+      RowBox[{"1000", ",", "\<\"+\"\>"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Buddha Nature (as Void)\"\>", ",", "980"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Native American Great Spirit\"\>", ",", 
+     RowBox[{"{", 
+      RowBox[{"850", ",", "\<\"+\"\>"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Surrender (at depth) one's will to God\"\>", ",", "850"}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Non-attachment\"\>", ",", 
+     RowBox[{"{", 
+      RowBox[{"800", ",", "\<\">\"\>"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Om (pronounced \:014dm)\"\>", ",", "740"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Deity\"\>", ",", "720"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Shanti Shanti Shanti\"\>", ",", "650"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Twelve Steps of Alcoholics Anonymous\"\>", ",", "540"}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"What is held in mind tends to manifest\"\>", ",", "505"}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Angles\"\>", ",", 
+     RowBox[{"{", 
+      RowBox[{"500", ",", "\<\"+\"\>"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Yahweh (Yewah)\"\>", ",", "460"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Word \\\"God\\\" as intellectual concept\"\>", ",", "460"}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"E=mc\.b2\"\>", ",", "455"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Technology\"\>", ",", 
+     RowBox[{"{", 
+      RowBox[{"400", ",", "500", ",", "\<\"[a,b)\"\>"}], "}"}]}], "}"}], ",", 
+   
+   RowBox[{"{", 
+    RowBox[{"\<\"Jehovah\"\>", ",", "205"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Tampermonkey\"\>", ",", 
+     RowBox[{"{", 
+      RowBox[{"200", ",", "300", ",", "\<\"(a,b)\"\>"}], "}"}]}], "}"}], ",", 
+   
+   RowBox[{"{", 
+    RowBox[{"\<\"The future doesn't exist.\"\>", ",", 
+     RowBox[{"{", 
+      RowBox[{"200", ",", "\<\">=\"\>"}], "}"}], 
+     ",", "\<\"Source: https://veritaspub.com/faqs/#12\"\>"}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.805700133857527*^9, {3.8057001675555162`*^9, 3.8057002090921288`*^9}, 
+   3.805700369587778*^9, 3.805700455292345*^9, {3.805701060902989*^9, 
+   3.805701086737617*^9}, {3.805701144096035*^9, 3.805701172915402*^9}, {
+   3.805701221387494*^9, 3.805701236810589*^9}, {3.805701459839405*^9, 
+   3.8057014653609324`*^9}, 3.805701518439415*^9, {3.805701557807363*^9, 
+   3.805701571794235*^9}, {3.805702258888946*^9, 3.805702272302491*^9}, 
+   3.805702431838366*^9, 3.8057024755529013`*^9, {3.8057026047303047`*^9, 
+   3.80570271519842*^9}, 3.8057027509472303`*^9, {3.805702836814987*^9, 
+   3.8057028404327497`*^9}, 3.8057030117282743`*^9, 3.8057031951354523`*^9, {
+   3.805703306412355*^9, 3.805703371145035*^9}, 3.805703451679563*^9, 
+   3.805703509333416*^9, 3.805703622239151*^9, {3.8057037589135*^9, 
+   3.8057037857501583`*^9}, 3.805704068541678*^9, 3.805705422814026*^9, 
+   3.805705465493442*^9, 3.8057055381576366`*^9, {3.805705603213841*^9, 
+   3.805705628866152*^9}, 3.805707365645685*^9, 3.805708152351223*^9, {
+   3.805708667379744*^9, 3.8057086806624193`*^9}, 3.8057090627721233`*^9, 
+   3.805719825485325*^9, 3.80580259761204*^9, 3.8059885242693377`*^9, 
+   3.805989016064184*^9, {3.805989109031383*^9, 3.805989132303709*^9}},
+ CellLabel->"Out[82]=",ExpressionUUID->"012a494c-5404-4d18-8e03-d094ba7b0d83"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"\<\"God\"\>", ",", "\[Infinity]"}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.805700133857527*^9, {3.8057001675555162`*^9, 3.8057002090921288`*^9}, 
+   3.805700369587778*^9, 3.805700455292345*^9, {3.805701060902989*^9, 
+   3.805701086737617*^9}, {3.805701144096035*^9, 3.805701172915402*^9}, {
+   3.805701221387494*^9, 3.805701236810589*^9}, {3.805701459839405*^9, 
+   3.8057014653609324`*^9}, 3.805701518439415*^9, {3.805701557807363*^9, 
+   3.805701571794235*^9}, {3.805702258888946*^9, 3.805702272302491*^9}, 
+   3.805702431838366*^9, 3.8057024755529013`*^9, {3.8057026047303047`*^9, 
+   3.80570271519842*^9}, 3.8057027509472303`*^9, {3.805702836814987*^9, 
+   3.8057028404327497`*^9}, 3.8057030117282743`*^9, 3.8057031951354523`*^9, {
+   3.805703306412355*^9, 3.805703371145035*^9}, 3.805703451679563*^9, 
+   3.805703509333416*^9, 3.805703622239151*^9, {3.8057037589135*^9, 
+   3.8057037857501583`*^9}, 3.805704068541678*^9, 3.805705422814026*^9, 
+   3.805705465493442*^9, 3.8057055381576366`*^9, {3.805705603213841*^9, 
+   3.805705628866152*^9}, 3.805707365645685*^9, 3.805708152351223*^9, {
+   3.805708667379744*^9, 3.8057086806624193`*^9}, 3.8057090627721233`*^9, 
+   3.805719825485325*^9, 3.80580259761204*^9, 3.8059885242693377`*^9, 
+   3.805989016064184*^9, {3.805989109031383*^9, 3.805989132306652*^9}},
+ CellLabel->"Out[84]=",ExpressionUUID->"ba7c1086-91f3-48e6-9a86-67cb4a0972a0"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\<\"God\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"God the Father\"\>", ",", "\[Infinity]"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"God of Moses and Abraham\"\>", ",", "\[Infinity]"}], "}"}]}],
+   "}"}]], "Output",
+ CellChangeTimes->{
+  3.805700133857527*^9, {3.8057001675555162`*^9, 3.8057002090921288`*^9}, 
+   3.805700369587778*^9, 3.805700455292345*^9, {3.805701060902989*^9, 
+   3.805701086737617*^9}, {3.805701144096035*^9, 3.805701172915402*^9}, {
+   3.805701221387494*^9, 3.805701236810589*^9}, {3.805701459839405*^9, 
+   3.8057014653609324`*^9}, 3.805701518439415*^9, {3.805701557807363*^9, 
+   3.805701571794235*^9}, {3.805702258888946*^9, 3.805702272302491*^9}, 
+   3.805702431838366*^9, 3.8057024755529013`*^9, {3.8057026047303047`*^9, 
+   3.80570271519842*^9}, 3.8057027509472303`*^9, {3.805702836814987*^9, 
+   3.8057028404327497`*^9}, 3.8057030117282743`*^9, 3.8057031951354523`*^9, {
+   3.805703306412355*^9, 3.805703371145035*^9}, 3.805703451679563*^9, 
+   3.805703509333416*^9, 3.805703622239151*^9, {3.8057037589135*^9, 
+   3.8057037857501583`*^9}, 3.805704068541678*^9, 3.805705422814026*^9, 
+   3.805705465493442*^9, 3.8057055381576366`*^9, {3.805705603213841*^9, 
+   3.805705628866152*^9}, 3.805707365645685*^9, 3.805708152351223*^9, {
+   3.805708667379744*^9, 3.8057086806624193`*^9}, 3.8057090627721233`*^9, 
+   3.805719825485325*^9, 3.80580259761204*^9, 3.8059885242693377`*^9, 
+   3.805989016064184*^9, {3.805989109031383*^9, 3.805989132310275*^9}},
+ CellLabel->"Out[85]=",ExpressionUUID->"b9412e06-f2ed-496b-a0cc-7df8534afc10"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"\<\"God the Father\"\>", ",", "\[Infinity]"}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.805700133857527*^9, {3.8057001675555162`*^9, 3.8057002090921288`*^9}, 
+   3.805700369587778*^9, 3.805700455292345*^9, {3.805701060902989*^9, 
+   3.805701086737617*^9}, {3.805701144096035*^9, 3.805701172915402*^9}, {
+   3.805701221387494*^9, 3.805701236810589*^9}, {3.805701459839405*^9, 
+   3.8057014653609324`*^9}, 3.805701518439415*^9, {3.805701557807363*^9, 
+   3.805701571794235*^9}, {3.805702258888946*^9, 3.805702272302491*^9}, 
+   3.805702431838366*^9, 3.8057024755529013`*^9, {3.8057026047303047`*^9, 
+   3.80570271519842*^9}, 3.8057027509472303`*^9, {3.805702836814987*^9, 
+   3.8057028404327497`*^9}, 3.8057030117282743`*^9, 3.8057031951354523`*^9, {
+   3.805703306412355*^9, 3.805703371145035*^9}, 3.805703451679563*^9, 
+   3.805703509333416*^9, 3.805703622239151*^9, {3.8057037589135*^9, 
+   3.8057037857501583`*^9}, 3.805704068541678*^9, 3.805705422814026*^9, 
+   3.805705465493442*^9, 3.8057055381576366`*^9, {3.805705603213841*^9, 
+   3.805705628866152*^9}, 3.805707365645685*^9, 3.805708152351223*^9, {
+   3.805708667379744*^9, 3.8057086806624193`*^9}, 3.8057090627721233`*^9, 
+   3.805719825485325*^9, 3.80580259761204*^9, 3.8059885242693377`*^9, 
+   3.805989016064184*^9, {3.805989109031383*^9, 3.805989132312007*^9}},
+ CellLabel->"Out[86]=",ExpressionUUID->"e3c757d1-5d09-4a1d-871e-787158c7f787"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"\<\"Integrity of purpose\"\>", ",", 
+    RowBox[{"{", 
+     RowBox[{"1100", ",", "1200"}], "}"}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.805700133857527*^9, {3.8057001675555162`*^9, 3.8057002090921288`*^9}, 
+   3.805700369587778*^9, 3.805700455292345*^9, {3.805701060902989*^9, 
+   3.805701086737617*^9}, {3.805701144096035*^9, 3.805701172915402*^9}, {
+   3.805701221387494*^9, 3.805701236810589*^9}, {3.805701459839405*^9, 
+   3.8057014653609324`*^9}, 3.805701518439415*^9, {3.805701557807363*^9, 
+   3.805701571794235*^9}, {3.805702258888946*^9, 3.805702272302491*^9}, 
+   3.805702431838366*^9, 3.8057024755529013`*^9, {3.8057026047303047`*^9, 
+   3.80570271519842*^9}, 3.8057027509472303`*^9, {3.805702836814987*^9, 
+   3.8057028404327497`*^9}, 3.8057030117282743`*^9, 3.8057031951354523`*^9, {
+   3.805703306412355*^9, 3.805703371145035*^9}, 3.805703451679563*^9, 
+   3.805703509333416*^9, 3.805703622239151*^9, {3.8057037589135*^9, 
+   3.8057037857501583`*^9}, 3.805704068541678*^9, 3.805705422814026*^9, 
+   3.805705465493442*^9, 3.8057055381576366`*^9, {3.805705603213841*^9, 
+   3.805705628866152*^9}, 3.805707365645685*^9, 3.805708152351223*^9, {
+   3.805708667379744*^9, 3.8057086806624193`*^9}, 3.8057090627721233`*^9, 
+   3.805719825485325*^9, 3.80580259761204*^9, 3.8059885242693377`*^9, 
+   3.805989016064184*^9, {3.805989109031383*^9, 3.8059891323134604`*^9}},
+ CellLabel->"Out[87]=",ExpressionUUID->"2a89b479-cc0e-4204-988b-35f4a55dd1ab"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"\<\"Archangles\"\>", ",", 
+    RowBox[{"{", 
+     RowBox[{"50000", ",", "\<\"+\"\>"}], "}"}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.805700133857527*^9, {3.8057001675555162`*^9, 3.8057002090921288`*^9}, 
+   3.805700369587778*^9, 3.805700455292345*^9, {3.805701060902989*^9, 
+   3.805701086737617*^9}, {3.805701144096035*^9, 3.805701172915402*^9}, {
+   3.805701221387494*^9, 3.805701236810589*^9}, {3.805701459839405*^9, 
+   3.8057014653609324`*^9}, 3.805701518439415*^9, {3.805701557807363*^9, 
+   3.805701571794235*^9}, {3.805702258888946*^9, 3.805702272302491*^9}, 
+   3.805702431838366*^9, 3.8057024755529013`*^9, {3.8057026047303047`*^9, 
+   3.80570271519842*^9}, 3.8057027509472303`*^9, {3.805702836814987*^9, 
+   3.8057028404327497`*^9}, 3.8057030117282743`*^9, 3.8057031951354523`*^9, {
+   3.805703306412355*^9, 3.805703371145035*^9}, 3.805703451679563*^9, 
+   3.805703509333416*^9, 3.805703622239151*^9, {3.8057037589135*^9, 
+   3.8057037857501583`*^9}, 3.805704068541678*^9, 3.805705422814026*^9, 
+   3.805705465493442*^9, 3.8057055381576366`*^9, {3.805705603213841*^9, 
+   3.805705628866152*^9}, 3.805707365645685*^9, 3.805708152351223*^9, {
+   3.805708667379744*^9, 3.8057086806624193`*^9}, 3.8057090627721233`*^9, 
+   3.805719825485325*^9, 3.80580259761204*^9, 3.8059885242693377`*^9, 
+   3.805989016064184*^9, {3.805989109031383*^9, 3.805989132315427*^9}},
+ CellLabel->"Out[88]=",ExpressionUUID->"442dfb87-e273-488b-b7b6-197e191814a2"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\<\"Archangles\"\>", ",", 
+     RowBox[{"{", 
+      RowBox[{"50000", ",", "\<\"+\"\>"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"Angles\"\>", ",", 
+     RowBox[{"{", 
+      RowBox[{"500", ",", "\<\"+\"\>"}], "}"}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.805700133857527*^9, {3.8057001675555162`*^9, 3.8057002090921288`*^9}, 
+   3.805700369587778*^9, 3.805700455292345*^9, {3.805701060902989*^9, 
+   3.805701086737617*^9}, {3.805701144096035*^9, 3.805701172915402*^9}, {
+   3.805701221387494*^9, 3.805701236810589*^9}, {3.805701459839405*^9, 
+   3.8057014653609324`*^9}, 3.805701518439415*^9, {3.805701557807363*^9, 
+   3.805701571794235*^9}, {3.805702258888946*^9, 3.805702272302491*^9}, 
+   3.805702431838366*^9, 3.8057024755529013`*^9, {3.8057026047303047`*^9, 
+   3.80570271519842*^9}, 3.8057027509472303`*^9, {3.805702836814987*^9, 
+   3.8057028404327497`*^9}, 3.8057030117282743`*^9, 3.8057031951354523`*^9, {
+   3.805703306412355*^9, 3.805703371145035*^9}, 3.805703451679563*^9, 
+   3.805703509333416*^9, 3.805703622239151*^9, {3.8057037589135*^9, 
+   3.8057037857501583`*^9}, 3.805704068541678*^9, 3.805705422814026*^9, 
+   3.805705465493442*^9, 3.8057055381576366`*^9, {3.805705603213841*^9, 
+   3.805705628866152*^9}, 3.805707365645685*^9, 3.805708152351223*^9, {
+   3.805708667379744*^9, 3.8057086806624193`*^9}, 3.8057090627721233`*^9, 
+   3.805719825485325*^9, 3.80580259761204*^9, 3.8059885242693377`*^9, 
+   3.805989016064184*^9, {3.805989109031383*^9, 3.805989132317169*^9}},
+ CellLabel->"Out[89]=",ExpressionUUID->"ef0ff919-9883-4b87-a4b6-62b5bfd13ccd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+  "consciousnessCalibrationsAtAndAbove", "[", 
+   "consciousnessCalibrationLevel_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Select", "[", 
+   RowBox[{"consciousnessCalibrations", ",", 
+    RowBox[{
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"ListQ", "[", 
+        RowBox[{"#", "[", 
+         RowBox[{"[", "2", "]"}], "]"}], "]"}], ",", 
+       RowBox[{
+        RowBox[{"GreaterEqual", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"#", "[", 
+            RowBox[{"[", "2", "]"}], "]"}], "[", 
+           RowBox[{"[", "1", "]"}], "]"}], ",", 
+          "consciousnessCalibrationLevel"}], "]"}], "&&", 
+        RowBox[{"!", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Length", "[", 
+             RowBox[{"#", "[", 
+              RowBox[{"[", "2", "]"}], "]"}], "]"}], "\[GreaterEqual]", "3"}],
+            "&&", 
+           RowBox[{"StringStartsQ", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"#", "[", 
+               RowBox[{"[", "2", "]"}], "]"}], "[", 
+              RowBox[{"[", "3", "]"}], "]"}], ",", " ", "\"\<(\>\""}], "]"}], 
+           "&&", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"#", "[", 
+              RowBox[{"[", "2", "]"}], "]"}], "[", 
+             RowBox[{"[", "1", "]"}], "]"}], "\[Equal]", 
+            "consciousnessCalibrationLevel"}]}], ")"}]}]}], ",", 
+       RowBox[{"GreaterEqual", "[", 
+        RowBox[{
+         RowBox[{"#", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], ",", 
+         "consciousnessCalibrationLevel"}], "]"}]}], "]"}], "&"}]}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Grid", "[", 
+  RowBox[{"consciousnessCalibrationsAtAndAbove", "[", "500", "]"}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.805705777576456*^9, 3.805705925846808*^9}, {
+   3.805705956883757*^9, 3.805706037716176*^9}, {3.805706084095664*^9, 
+   3.8057060910620937`*^9}, {3.805706124453174*^9, 3.805706185404625*^9}, 
+   3.8057062500038433`*^9, {3.80570738968944*^9, 3.8057074020969257`*^9}},
+ CellLabel->"In[90]:=",ExpressionUUID->"586b6a9e-36ea-40f0-9824-03439c825d10"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"God\"\>", "\[Infinity]"},
+    {"\<\"God the Father\"\>", "\[Infinity]"},
+    {"\<\"The Creator\"\>", "\[Infinity]"},
+    {"\<\"The Almighty\"\>", "\[Infinity]"},
+    {"\<\"Maker of Heaven and Earth\"\>", "\[Infinity]"},
+    {"\<\"Ruler of the Universe\"\>", "\[Infinity]"},
+    {"\<\"Maker of All Things Visible and Invisible\"\>", "\[Infinity]"},
+    {"\<\"Omnipotent, Omniscient, and Omnipresent\"\>", "\[Infinity]"},
+    {"\<\"The Supreme\"\>", "\[Infinity]"},
+    {"\<\"Source of All Life and Existence\"\>", "\[Infinity]"},
+    {"\<\"The Holy Spirit\"\>", "\[Infinity]"},
+    {"\<\"Allah\"\>", "\[Infinity]"},
+    {"\<\"AN (Dravidian \[Dash] early Hindu)\"\>", "\[Infinity]"},
+    {"\<\"Shiva\"\>", "\[Infinity]"},
+    {"\<\"Kirshna\"\>", "\[Infinity]"},
+    {"\<\"Brahma\"\>", "\[Infinity]"},
+    {"\<\"Vishnu\"\>", "\[Infinity]"},
+    {"\<\"Durga\"\>", "\[Infinity]"},
+    {"\<\"Isvara\"\>", "\[Infinity]"},
+    {"\<\"Rama\"\>", "\[Infinity]"},
+    {"\<\"God of Moses and Abraham\"\>", "\[Infinity]"},
+    {"\<\"The Christ\"\>", "\[Infinity]"},
+    {"\<\"Christ Consciousness\"\>", "\[Infinity]"},
+    {"\<\"Christ as God Incarnate\"\>", "\[Infinity]"},
+    {"\<\"Purusha\"\>", "\[Infinity]"},
+    {"\<\"Self\"\>", "\[Infinity]"},
+    {"\<\"Atman\"\>", "\[Infinity]"},
+    {"\<\"Archangles\"\>", 
+     RowBox[{"{", 
+      RowBox[{"50000", ",", "\<\"+\"\>"}], "}"}]},
+    {"\<\"Integrity of purpose\"\>", 
+     RowBox[{"{", 
+      RowBox[{"1100", ",", "1200"}], "}"}]},
+    {"\<\"Buddha Nature (as Allness)\"\>", 
+     RowBox[{"{", 
+      RowBox[{"1000", ",", "\<\"+\"\>"}], "}"}]},
+    {"\<\"Buddha Nature (as Void)\"\>", "980"},
+    {"\<\"Native American Great Spirit\"\>", 
+     RowBox[{"{", 
+      RowBox[{"850", ",", "\<\"+\"\>"}], "}"}]},
+    {"\<\"Surrender (at depth) one's will to God\"\>", "850"},
+    {"\<\"Non-attachment\"\>", 
+     RowBox[{"{", 
+      RowBox[{"800", ",", "\<\">\"\>"}], "}"}]},
+    {"\<\"Om (pronounced \:014dm)\"\>", "740"},
+    {"\<\"Deity\"\>", "720"},
+    {"\<\"Shanti Shanti Shanti\"\>", "650"},
+    {"\<\"Twelve Steps of Alcoholics Anonymous\"\>", "540"},
+    {"\<\"What is held in mind tends to manifest\"\>", "505"},
+    {"\<\"Angles\"\>", 
+     RowBox[{"{", 
+      RowBox[{"500", ",", "\<\"+\"\>"}], "}"}]}
+   },
+   AutoDelete->False,
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{
+  3.805705649433132*^9, 3.8057060399813623`*^9, 3.805706091559259*^9, 
+   3.805706186247607*^9, {3.8057062439750013`*^9, 3.805706250925432*^9}, {
+   3.805707381647708*^9, 3.8057074024650707`*^9}, 3.8057086807536182`*^9, 
+   3.8057090628254433`*^9, 3.8057198256172857`*^9, 3.8058025976722813`*^9, 
+   3.805988524330638*^9, 3.8059890161120453`*^9, {3.805989109075316*^9, 
+   3.805989132363011*^9}},
+ CellLabel->"Out[91]=",ExpressionUUID->"ed78730c-b638-40da-9f4f-82dcfff3e6c2"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8057065494795017`*^9, 3.805706569474161*^9}},
+ CellLabel->"In[92]:=",ExpressionUUID->"25981ed1-1df9-4e3e-a164-807607507b16"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Grid", "[", 
+  RowBox[{"consciousnessCalibrationsAtAndAbove", "[", "50000", "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8057066440912657`*^9, 3.805706652282691*^9}, {
+  3.805707558014345*^9, 3.805707561725457*^9}},
+ CellLabel->"In[93]:=",ExpressionUUID->"7e9db172-c0f1-498f-aef9-470444a8083b"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"God\"\>", "\[Infinity]"},
+    {"\<\"God the Father\"\>", "\[Infinity]"},
+    {"\<\"The Creator\"\>", "\[Infinity]"},
+    {"\<\"The Almighty\"\>", "\[Infinity]"},
+    {"\<\"Maker of Heaven and Earth\"\>", "\[Infinity]"},
+    {"\<\"Ruler of the Universe\"\>", "\[Infinity]"},
+    {"\<\"Maker of All Things Visible and Invisible\"\>", "\[Infinity]"},
+    {"\<\"Omnipotent, Omniscient, and Omnipresent\"\>", "\[Infinity]"},
+    {"\<\"The Supreme\"\>", "\[Infinity]"},
+    {"\<\"Source of All Life and Existence\"\>", "\[Infinity]"},
+    {"\<\"The Holy Spirit\"\>", "\[Infinity]"},
+    {"\<\"Allah\"\>", "\[Infinity]"},
+    {"\<\"AN (Dravidian \[Dash] early Hindu)\"\>", "\[Infinity]"},
+    {"\<\"Shiva\"\>", "\[Infinity]"},
+    {"\<\"Kirshna\"\>", "\[Infinity]"},
+    {"\<\"Brahma\"\>", "\[Infinity]"},
+    {"\<\"Vishnu\"\>", "\[Infinity]"},
+    {"\<\"Durga\"\>", "\[Infinity]"},
+    {"\<\"Isvara\"\>", "\[Infinity]"},
+    {"\<\"Rama\"\>", "\[Infinity]"},
+    {"\<\"God of Moses and Abraham\"\>", "\[Infinity]"},
+    {"\<\"The Christ\"\>", "\[Infinity]"},
+    {"\<\"Christ Consciousness\"\>", "\[Infinity]"},
+    {"\<\"Christ as God Incarnate\"\>", "\[Infinity]"},
+    {"\<\"Purusha\"\>", "\[Infinity]"},
+    {"\<\"Self\"\>", "\[Infinity]"},
+    {"\<\"Atman\"\>", "\[Infinity]"},
+    {"\<\"Archangles\"\>", 
+     RowBox[{"{", 
+      RowBox[{"50000", ",", "\<\"+\"\>"}], "}"}]}
+   },
+   AutoDelete->False,
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{{3.8057075478841953`*^9, 3.805707562362117*^9}, 
+   3.80570868078646*^9, 3.8057090628561172`*^9, 3.805719825643568*^9, 
+   3.80580259770308*^9, 3.805988524360394*^9, 3.805989016140809*^9, {
+   3.805989109104114*^9, 3.805989132391755*^9}},
+ CellLabel->"Out[93]=",ExpressionUUID->"5ee05f4c-866e-4688-ad9d-f3da94513d04"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"consciousnessCalibrationsAtAndAboveAndBelow", "[", 
+   RowBox[{
+   "consciousnessCalibrationLevelFrom_", ",", " ", 
+    "consciousnessCalibrationLevelBelow_"}], " ", "]"}], ":=", 
+  RowBox[{"Select", "[", 
+   RowBox[{
+    RowBox[{
+    "consciousnessCalibrationsAtAndAbove", "[", 
+     "consciousnessCalibrationLevelFrom", "]"}], ",", " ", 
+    RowBox[{
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"ListQ", "[", 
+        RowBox[{"#", "[", 
+         RowBox[{"[", "2", "]"}], "]"}], "]"}], ",", 
+       RowBox[{
+        RowBox[{"Less", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"#", "[", 
+            RowBox[{"[", "2", "]"}], "]"}], "[", 
+           RowBox[{"[", "2", "]"}], "]"}], ",", 
+          "consciousnessCalibrationLevelBelow"}], "]"}], "&&", 
+        RowBox[{"!", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Length", "[", 
+             RowBox[{"#", "[", 
+              RowBox[{"[", "2", "]"}], "]"}], "]"}], "\[GreaterEqual]", "3"}],
+            "&&", 
+           RowBox[{"StringEndsQ", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"#", "[", 
+               RowBox[{"[", "2", "]"}], "]"}], "[", 
+              RowBox[{"[", "3", "]"}], "]"}], ",", " ", "\"\<)\>\""}], "]"}], 
+           "&&", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"#", "[", 
+              RowBox[{"[", "2", "]"}], "]"}], "[", 
+             RowBox[{"[", "2", "]"}], "]"}], "\[Equal]", 
+            "consciousnessCalibrationLevelBelow"}]}], ")"}]}]}], ",", 
+       RowBox[{"Less", "[", 
+        RowBox[{
+         RowBox[{"#", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], ",", 
+         "consciousnessCalibrationLevelBelow"}], "]"}]}], "]"}], "&"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.8057076279506283`*^9, 3.805707719256168*^9}, {
+   3.8057077706373043`*^9, 3.805707823403871*^9}, 3.805707874085519*^9, {
+   3.805708004002379*^9, 3.805708008371662*^9}, {3.805708053497498*^9, 
+   3.8057080567528343`*^9}},
+ CellLabel->"In[94]:=",ExpressionUUID->"f1899652-95f3-4edc-b15a-5ce2515731dc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Grid", "[", 
+  RowBox[{"consciousnessCalibrationsAtAndAboveAndBelow", "[", 
+   RowBox[{"400", ",", "500"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.805707848734851*^9, 3.805707851806284*^9}, {
+  3.805708163288628*^9, 3.805708166559967*^9}},
+ CellLabel->"In[95]:=",ExpressionUUID->"31d1605b-85d9-4c2b-9102-f68598b2abd0"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Yahweh (Yewah)\"\>", "460"},
+    {"\<\"Word \\\"God\\\" as intellectual concept\"\>", "460"},
+    {"\<\"E=mc\.b2\"\>", "455"}
+   },
+   AutoDelete->False,
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{{3.8057078525633707`*^9, 3.805707876370454*^9}, 
+   3.805708018099081*^9, 3.8057080599507227`*^9, 3.805708167274805*^9, 
+   3.805708680818451*^9, 3.805709062886332*^9, 3.805719825669777*^9, 
+   3.805802597733362*^9, 3.805988524390164*^9, 3.805989016167458*^9, {
+   3.805989109128758*^9, 3.8059891324210787`*^9}},
+ CellLabel->"Out[95]=",ExpressionUUID->"2a871935-57ed-4012-bc83-430105e3c7f3"]
+}, Open  ]]
+},
+WindowSize->{635, 716},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (July 8, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"a44669c5-58d2-4064-8258-79153bb3c34c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 15992, 369, 1991, "Input",ExpressionUUID->"5f81e561-3b73-4210-9bdd-aa65082de32f"],
+Cell[16578, 393, 6316, 149, 503, "Output",ExpressionUUID->"012a494c-5404-4d18-8e03-d094ba7b0d83"],
+Cell[22897, 544, 1457, 22, 34, "Output",ExpressionUUID->"ba7c1086-91f3-48e6-9a86-67cb4a0972a0"],
+Cell[24357, 568, 1665, 28, 34, "Output",ExpressionUUID->"b9412e06-f2ed-496b-a0cc-7df8534afc10"],
+Cell[26025, 598, 1471, 23, 34, "Output",ExpressionUUID->"e3c757d1-5d09-4a1d-871e-787158c7f787"],
+Cell[27499, 623, 1523, 24, 34, "Output",ExpressionUUID->"2a89b479-cc0e-4204-988b-35f4a55dd1ab"],
+Cell[29025, 649, 1517, 24, 34, "Output",ExpressionUUID->"442dfb87-e273-488b-b7b6-197e191814a2"],
+Cell[30545, 675, 1669, 29, 34, "Output",ExpressionUUID->"ef0ff919-9883-4b87-a4b6-62b5bfd13ccd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32251, 709, 2154, 55, 199, "Input",ExpressionUUID->"586b6a9e-36ea-40f0-9824-03439c825d10"],
+Cell[34408, 766, 2915, 65, 731, "Output",ExpressionUUID->"ed78730c-b638-40da-9f4f-82dcfff3e6c2"]
+}, Open  ]],
+Cell[37338, 834, 173, 2, 30, "Input",ExpressionUUID->"25981ed1-1df9-4e3e-a164-807607507b16"],
+Cell[CellGroupData[{
+Cell[37536, 840, 322, 6, 30, "Input",ExpressionUUID->"7e9db172-c0f1-498f-aef9-470444a8083b"],
+Cell[37861, 848, 1877, 40, 515, "Output",ExpressionUUID->"5ee05f4c-866e-4688-ad9d-f3da94513d04"]
+}, Open  ]],
+Cell[39753, 891, 2126, 56, 220, "Input",ExpressionUUID->"f1899652-95f3-4edc-b15a-5ce2515731dc"],
+Cell[CellGroupData[{
+Cell[41904, 951, 349, 6, 30, "Input",ExpressionUUID->"31d1605b-85d9-4c2b-9102-f68598b2abd0"],
+Cell[42256, 959, 704, 14, 69, "Output",ExpressionUUID->"2a871935-57ed-4012-bc83-430105e3c7f3"]
+}, Open  ]]
+}
+]
+*)
+
