@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Consciousness Calibrations</title>
+</head>
+
+<body>
+  <template id="calibratingAConsciousnessLevelUI">
+    <h2 style="margin: 0.5rem 0;">Calibrating a consciousness level</h2>
+
+    <div class="options"  style="margin-bottom: 0.25rem;">
+      <label>
+        From
+        <input id="from" type="number" autofocus required min="0">
+      </label>
+      <label>
+        To
+        <input id="to" type="number" required>
+      </label>
+      <label>
+        Number of decimal places
+        <input id="numberOfDecimalPlaces" type="number" required>
+      </label>
+    </div>
+
+    <div id="startCalibration">
+      <button>Start calibration</button>
+    </div>
+
+    <div id="calibrationInputUI" style="display: none;">
+      <button id="l">L</button>
+      <button id="r">R</button>
+      <span id="calibrationsLeft"></span>
+      <div id="output" style="margin-top: 0.25rem;"></div>
+    </div>
+  </template>
+
+  <template id="calibratingAnOptionUI">
+    <h2 style="margin: 0.5rem 0;">Calibrating the number of an option that serves the highest good most out of a numbered list of options</h2>
+
+    <strong style="display: block; margin-bottom: 0.25rem;">Options</strong>
+
+    <ol id="options" contenteditable="true">
+      <li></li>
+    </ol>
+
+    <div id="startCalibration">
+      <button>Start calibration</button>
+    </div>
+
+    <div id="calibrationInputUI" style="display: none;">
+      <button id="l">L</button>
+      <button id="r">R</button>
+      <span id="calibrationsLeft"></span>
+      <div id="output" style="margin-top: 0.25rem;"></div>
+    </div>
+  </template>
+
+  <p style="margin-bottom: 0.25rem;">
+    This calibration is devoted to God.<br>
+    In name of God I have permission to calibrate of what is held in mind.
+  </p>
+
+  <div id="start">
+    <button>Calibrates as true</button>
+  </div>
+
+  <div id="calibrationOptions" style="display: none;">
+    <strong style="display: block; margin-bottom: 0.25rem;">Options</strong>
+    <button id="calibrateAConsciousnessLevelOption" style="display: block; margin-bottom: 0.25rem;">Calibrating a consciousness level</button>
+    <button id="calibrateAnOptionOption" style="display: block;">Calibrating the number of an option that serves the highest good most out of a numbered list of options</button>
+  </div>
+
+  <div id="UI"></div>
+
+  <script>
+    let minNumber
+    let maxNumber
+    let numberOfNachkommastellen
+    let effectiveMaxNumber
+    let numberOfBits
+    let number = 0n
+    let counter = 0
+
+    function calculateNumberOfBits(maxNumber) {
+      // 2 ** numberOfBits = maxNumber
+      const log2OfMaxNumber = Math.log2(maxNumber)
+      let numberOfBits = Math.ceil(log2OfMaxNumber)
+      if (log2OfMaxNumber === numberOfBits) {
+        numberOfBits += 1
+      }
+      return numberOfBits
+    }
+
+    const $start = document.getElementById('start')
+
+    let $calibrationInputUI
+    let $from
+    let $to
+    let $numberOfDecimalPlaces
+    let $l
+    let $r
+    let $calibrationsLeft
+    let $output
+
+    $start.querySelector('button').addEventListener('click', () => {
+      $start.style.display = 'none'
+      document.getElementById('calibrationOptions').style.display = 'block'
+
+      document.getElementById('calibrateAConsciousnessLevelOption').addEventListener('click', () => {
+        hideCalibrationOptions()
+        showUI('calibratingAConsciousnessLevelUI')
+
+        const $startCalibration = document.getElementById('startCalibration')
+        $calibrationInputUI = document.getElementById('calibrationInputUI')
+        $from = document.getElementById('from')
+        $to = document.getElementById('to')
+        $numberOfDecimalPlaces = document.getElementById('numberOfDecimalPlaces')
+        $l = document.getElementById('l')
+        $r = document.getElementById('r')
+        $calibrationsLeft = document.getElementById('calibrationsLeft')
+        $output = document.getElementById('output')
+
+        $startCalibration.querySelector('button').addEventListener('click', () => {
+          $from.disabled = true
+          $to.disabled = true
+          $numberOfDecimalPlaces.disabled = true
+
+          $startCalibration.style.display = 'none'
+          $calibrationInputUI.style.display = 'block'
+
+          minNumber = parseInt($from.value, 10)
+          maxNumber = parseInt($to.value, 10)
+          numberOfNachkommastellen = parseInt($numberOfDecimalPlaces.value, 10)
+
+          effectiveMaxNumber = maxNumber * 10 ** numberOfNachkommastellen
+          numberOfBits = calculateNumberOfBits(effectiveMaxNumber)
+          console.log('numberOfBits', numberOfBits)
+
+          updateCalibrationsLeft()
+          output()
+        })
+
+        function output() {
+          let numberAsString = number.toString(2)
+          numberAsString = numberAsString.padStart(counter, '0')
+          console.log(numberAsString)
+          if (counter === numberOfBits) {
+            const numberAsString = number.toString(10)
+            const numberBeforeDelimiter = numberAsString.substring(0, numberAsString.length - numberOfNachkommastellen) || '0'
+            let numberAsKommazahl
+            if (numberOfNachkommastellen >= 1) {
+              const numberAfterDelimiter = numberAsString.substring(numberAsString.length - numberOfNachkommastellen)
+              numberAsKommazahl = numberBeforeDelimiter + '.' + numberAfterDelimiter
+            } else {
+              numberAsKommazahl = numberBeforeDelimiter
+            }
+            let output
+            if (numberAsKommazahl >= minNumber && numberAsKommazahl <= maxNumber) {
+              output = numberAsKommazahl
+            } else {
+              output = 'Invalid result (out of bounds): ' + numberAsKommazahl
+            }
+            $output.textContent = output
+            $l.setAttribute('disabled', String(true))
+            $r.setAttribute('disabled', String(true))
+          }
+        }
+
+        $l.addEventListener('click', () => {
+          number = (number << 1n) | 1n
+          next()
+          output()
+        })
+
+        $r.addEventListener('click', () => {
+          number = (number << 1n) | 0n
+          next()
+          output()
+        })
+      })
+      document.getElementById('calibrateAnOptionOption').addEventListener('click', () => {
+        hideCalibrationOptions()
+        showUI('calibratingAnOptionUI')
+
+        const $startCalibration = document.getElementById('startCalibration')
+        const $options = document.getElementById('options')
+        $calibrationInputUI = document.getElementById('calibrationInputUI')
+        $l = document.getElementById('l')
+        $r = document.getElementById('r')
+        $calibrationsLeft = document.getElementById('calibrationsLeft')
+        $output = document.getElementById('output')
+
+        $startCalibration.querySelector('button').addEventListener('click', () => {
+          $startCalibration.style.display = 'none'
+          $calibrationInputUI.style.display = 'block'
+
+          // We internally start with the list item index 0
+          // to save one calibration when the log2 of the
+          // number of list items is a natural number.
+          const numberOfOptions = $options.children.length
+          minNumber = 0
+          maxNumber = numberOfOptions - 1
+          numberOfNachkommastellen = 0
+
+          effectiveMaxNumber = maxNumber
+          numberOfBits = numberOfOptions === 1 ?
+            0 :
+            calculateNumberOfBits(effectiveMaxNumber)
+          console.log('numberOfBits', numberOfBits)
+
+          updateCalibrationsLeft()
+          output()
+        })
+
+        function output() {
+          let numberAsString = number.toString(2)
+          numberAsString = numberAsString.padStart(counter, '0')
+          console.log(numberAsString)
+          if (counter === numberOfBits) {
+            const numberAsString = (number + 1n).toString(10)
+            const numberBeforeDelimiter = numberAsString.substring(0, numberAsString.length - numberOfNachkommastellen) || '0'
+            $output.innerHTML = '<strong>Option:</strong> ' + numberBeforeDelimiter
+            $l.setAttribute('disabled', String(true))
+            $r.setAttribute('disabled', String(true))
+          }
+        }
+
+        $l.addEventListener('click', () => {
+          number = (number << 1n) | 1n
+          next()
+          output()
+        })
+
+        $r.addEventListener('click', () => {
+          number = (number << 1n) | 0n
+          next()
+          output()
+        })
+      })
+    })
+
+    function hideCalibrationOptions() {
+      document.getElementById('calibrationOptions').style.display = 'none'
+    }
+
+    function showUI(templateId) {
+      document.getElementById('UI').appendChild(
+        document.getElementById(templateId).content.cloneNode(true)
+      )
+    }
+
+    function next() {
+      counter++
+      updateCalibrationsLeft()
+    }
+
+    function updateCalibrationsLeft() {
+      $calibrationsLeft.textContent = String(numberOfBits - counter)
+    }
+  </script>
+</body>
+
+</html>
