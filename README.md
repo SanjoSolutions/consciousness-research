@@ -71,6 +71,6 @@ The words "and" and "or" are used in logical expressions (expressions where thos
 
 ## Research
 
-This research has been done by me (Jonas Aschenbrenner) and reflects the answers that I have received. Please verify that the information is true for you before considering to incorporate the information into your life.
+This research has been done by me (Jonas Aschenbrenner) and reflects the answers that I have received. Please verify that it serves the highest good before incorporating the information into your life.
 
 * That consciousness research via muscle strength is based on a believe that the muscle goes weak with negativity (content that calibrates below 200) and stays strong with positivity (content that calibrates at or above 200) calibrates at or above 446 and below 447.
