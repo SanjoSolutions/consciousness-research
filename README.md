@@ -46,6 +46,10 @@ from those consciousness levels (the temptations of pride, exploitation, seducti
 
 When one has surrendered ones will at depth to God it seems also possible that consciousness calibration occurs impersonally when conditions are favorable (i.e. something that the intellect cannot work out otherwise practically).
 
+## Other recommended practices
+
+* Before choosing to follow a teacher or teaching, verify first that it serves the highest good to do so and choose to do so only when it does.
+
 ## Formal logic
 
 The words "and" and "or" are used in logical expressions (expressions where those words connect multiple conditions or expressions where a range is stated) like they are defined in boolean algebra.
