@@ -84,4 +84,4 @@ This research has been done by me (Jonas Aschenbrenner) and reflects the answers
 The following research is based on what I have read regarding that "a course of miracles" students which seem to have completed the lesson that the mind only believes what one chooses to believe, tested strong to what many others seem to have tested weak to.
 
 * That consciousness research via muscle strength is based on a believe that the muscle goes weak with negativity (content that calibrates below 200) and stays strong with positivity (content that calibrates at or above 200) calibrates at or above 446 and below 447.
-* The believe that the muscle goes weak with negativity (content that calibrates below 200) and stays strong with positivity (content that calibrates at or above 200) calibrates at 1000.
+* The believe that the muscle goes weak with negativity (content that calibrates below 200) and stays strong with positivity (content that calibrates at or above 200) calibrates at or above 256 and below 257.
