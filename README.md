@@ -92,3 +92,10 @@ The following research is based on what I have read regarding that "a course of 
 
 * Archangles: 50000+
 * Angels: 500+
+
+### Surrendering ones will at depth to God
+
+In the name of the highest good, I have permission to ask if it's enough to surrender ones will at depth to God once, so that the will stays surrendered at depth to God. (true)
+
+In the name of the highest good, it's enough to surrender ones will at depth to God once, so that the will stays surrendered at depth to God. (true)
+
