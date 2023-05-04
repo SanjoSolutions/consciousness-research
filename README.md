@@ -99,3 +99,13 @@ In the name of the highest good, I have permission to ask if it's enough to surr
 
 In the name of the highest good, it's enough to surrender ones will at depth to God once, so that the will stays surrendered at depth to God. (true)
 
+### Consciousness level of a virus
+
+A virus seems to calibrate at 0.5.
+
+This seems to also show that there is content that calibrates below 1.
+But above 0, because death (which has been calibrated at 0) is impossible (Life is eternal).
+
+### Content on the lowest consciousness levels
+
+I have once witnessed the calibration of calibrations that seem to have calibrated on what consciousness levels the lowest entities calibrate. It seems to be around 10^-26 (0.0000000000000000000000001).
