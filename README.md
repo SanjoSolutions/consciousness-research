@@ -46,6 +46,8 @@ from those consciousness levels (the temptations of pride, exploitation, seducti
 
 When one has surrendered ones will at depth to God it seems also possible that consciousness calibration occurs impersonally when conditions are favorable (i.e. something that the intellect cannot work out otherwise practically).
 
+Developing an open-mindesness seems to be benefitial to receive more accurate answers (that it is has been calibrated at or above 555 and below 556).
+
 ## Other recommended practices
 
 * Before choosing to follow a teacher or teaching, verify first that it serves the highest good to do so and choose to do so only when it does.
