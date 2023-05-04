@@ -48,7 +48,7 @@ When one has surrendered ones will at depth to God it seems also possible that c
 
 ## Formal logic
 
-The words "and" and "or" are used like they are defined in boolean algebra in expressions where those words connect multiple conditions or expressions where a range is stated.
+The words "and" and "or" are used in logical expressions (expressions where those words connect multiple conditions or expressions where a range is stated) like they are defined in boolean algebra.
 
 ### Definition of logical and
 
