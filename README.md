@@ -64,6 +64,14 @@ Verifiable truth is a product of:
 * context
 * paradigm (meaning)
 
+## Method
+
+### An O-ring method
+
+[Demonstration](assets/a_o_ring_method.mp4)
+
+When the Os hold the calibration can be regarded as strong.
+
 ## Note regarding the consciousness level numbers
 
 The numbers seem to represent the exponent of 10 raised by the power of the exponent.
