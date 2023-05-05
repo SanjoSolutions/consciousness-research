@@ -123,3 +123,9 @@ I have once witnessed the calibration of calibrations that seem to have calibrat
 ### Consciousness level of the book "The Map of Consciousness Explained: A Proven Energy Scale to Actualize Your Ultimate Potential"
 
 The book has been calibrated to calibrate at or above 866 and below 867.
+
+### Other calibrations
+
+| Content | Consciousness level / Consciousness level range |
+|---|---|
+| World of Warcraft (computer game) | at or above 557 and below 558 |
