@@ -128,4 +128,4 @@ The book has been calibrated to calibrate at or above 866 and below 867.
 
 | Content | Consciousness level / Consciousness level range |
 |---|---|
-| World of Warcraft (computer game) | at or above 557 and below 558 |
+| World of Warcraft (computer game) | at or above 557 and below 558 (this has been calibrated from a consciousness level close the consciousness level range that has been calibrated) |
