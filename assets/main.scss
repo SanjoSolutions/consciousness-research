@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+body {
+  background-color: white;
+}
+
 .page-content {
   padding: 0;
 }
