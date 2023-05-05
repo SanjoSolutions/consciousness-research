@@ -1,4 +1,4 @@
-# Consciousness Research
+# Consciousness research
 
 This work is devoted to God.
 
