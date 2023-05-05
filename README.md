@@ -54,6 +54,15 @@ While doing consciousness calibrations the final doorway can swing open. If that
 
 * Before choosing to follow a teacher or teaching, verify first that it serves the highest good to do so and choose to do so only when it does.
 
+## Note regarding the consciousness level numbers
+
+The numbers seem to represent the exponent of 10 raised by the power of the exponent.
+
+Therefore the difference of potency of power of two consciousness levels A and B (with B > A) can be calculated with 10^B - 10^A.
+The result is, how much more powerful B is compared to A.
+
+The difference of for example 990 and 991 in terms of potency of power is much bigger than between 200 and 201.
+
 ## Formal logic
 
 The words "and" and "or" are used in logical expressions (expressions where those words connect multiple conditions or expressions where a range is stated) like they are defined in boolean algebra.
