@@ -2,6 +2,9 @@
 
 This work is devoted to God.
 
+Please verify that it serves the highest good before incorporating any of the information into your life.
+Please also verify with a consciousness calibration technique if the information is correct.
+
 ## Works
 
 * "Truth vs. Falsehood - How to tell the difference" by David R. Hawkins: This book seems to be the most focused on consciousness research of the books by David R. Hawkins. It states a list of the principles of the science of consciousness which seem to be a good basis for consciousness research.
@@ -105,9 +108,6 @@ The words "and" and "or" are used in logical expressions (expressions where thos
 | true | true | true |
 
 ## Research
-
-Please verify that it serves the highest good before incorporating any of the information into your life.
-Please also verify with a consciousness calibration technique if the information is correct.
 
 ### The basis for that muscle testing works
 
