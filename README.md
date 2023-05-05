@@ -119,3 +119,7 @@ But above 0, because death (which has been calibrated at 0) is impossible (Life 
 ### Content on the lowest consciousness levels
 
 I have once witnessed the calibration of calibrations that seem to have calibrated on what consciousness levels the lowest entities calibrate. It seems to be around 10^-26 (0.0000000000000000000000001).
+
+### Consciousness level of the book "The Map of Consciousness Explained: A Proven Energy Scale to Actualize Your Ultimate Potential"
+
+The book has been calibrated to calibrate at or above 866 and below 867.
