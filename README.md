@@ -79,7 +79,8 @@ The words "and" and "or" are used in logical expressions (expressions where thos
 
 ## Research
 
-This research has been done by me (Jonas Aschenbrenner) and reflects the answers that I have received. Please verify that it serves the highest good before incorporating the information into your life.
+Please verify that it serves the highest good before incorporating any of the information into your life.
+Please also verify with a consciousness calibration technique if the information is correct.
 
 ### The basis for that muscle testing works
 
