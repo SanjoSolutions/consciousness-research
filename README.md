@@ -54,6 +54,16 @@ While doing consciousness calibrations the final doorway can swing open. If that
 
 * Before choosing to follow a teacher or teaching, verify first that it serves the highest good to do so and choose to do so only when it does.
 
+## Verifiable truth
+
+Verifiable truth is a product of:
+
+* content
+* point of observation
+* influence of intention
+* context
+* paradigm (meaning)
+
 ## Note regarding the consciousness level numbers
 
 The numbers seem to represent the exponent of 10 raised by the power of the exponent.
