@@ -88,7 +88,7 @@ The difference of for example 990 and 991 in terms of potency of power is much b
 
 The words "and" and "or" are used in logical expressions (expressions where those words connect multiple conditions or expressions where a range is stated) like they are defined in boolean algebra.
 
-### Definition of logical and
+### Definition of logical "and"
 
 | A | B | A and B |
 |---|---|--------|
@@ -98,7 +98,7 @@ The words "and" and "or" are used in logical expressions (expressions where thos
 | true | true | true |
 
 
-### Definition of logical or
+### Definition of logical "or"
 
 | A | B | A or B |
 |---|---|--------|
