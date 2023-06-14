@@ -66,6 +66,8 @@ Verifiable truth is a product of:
 
 ## Method
 
+For the full method for how to do consciousness calibrations, please check out the appendix for it in one of the books by David R. Hawkins. The appendix seems almost completly available for free [here](https://books.google.de/books?id=1V_6DwAAQBAJ&lpg=PP1&dq=healing%20and%20recovery&pg=PA477#v=onepage&q=healing%20and%20recovery&f=false) (only one page seems missing).
+
 ### An O-ring method
 
 [Demonstration](assets/a_o_ring_method.mp4)
