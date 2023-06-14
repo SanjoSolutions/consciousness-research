@@ -82,7 +82,7 @@ When the Os hold the calibration can be regarded as strong.
 
 The numbers seem to represent the exponent of 10 raised by the power of the exponent.
 
-Therefore the difference of potency of power of two consciousness levels A and B (with B > A) can be calculated with 10^B - 10^A.
+The difference of potency of power of two consciousness levels A and B (with B > A) can be calculated with 10^B - 10^A.
 The result is, how much more powerful B is compared to A.
 
 ## Formal logic
