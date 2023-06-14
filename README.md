@@ -42,10 +42,7 @@ Please also verify with a consciousness calibration technique if the information
 * Always state explicitly the intention to serve God (i.e. in the form of "In the name of the highest good").
 * Always only calibrate things other than calibrating if you have permission, if you have permission. And only find out if you have permission via consciousness calibrations.
 
-From my experience revelation can reveal information that can be helpful for further inquiry with consciousness calibrations. Consciousness calibration calibrates at 600.
-Revelation calibrates at or above 500 and below 540. Therefore consciousness calibration calibrates higher than revelation and therefore it seems to make good sense to always
-verify via consciousness calibration that what seems to have been revelead calibrates indeed at a high consciousness level. This can potentially bring into awareness spiritual mistakes
-from those consciousness levels (the temptations of pride, exploitation, seduction and mistaken as personal).
+From my experience revelation can reveal information that can be helpful for further inquiry with consciousness calibrations.
 
 When one has surrendered ones will at depth to God it seems also possible that consciousness calibration occurs impersonally when conditions are favorable (i.e. something that the intellect cannot work out otherwise practically).
 
