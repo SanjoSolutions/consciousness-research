@@ -48,7 +48,7 @@ When one has surrendered ones will at depth to God it seems also possible that c
 
 Developing an open-mindesness seems to be benefitial to receive more accurate answers (that it is has been calibrated at or above 555 and below 556).
 
-While doing consciousness calibrations the final doorway can swing open. If that's the case be willing to surrender at depth to God which includes the believe in a personal self.
+While doing consciousness calibrations the final doorway can swing open. If that's the case, be willing to surrender at depth to God, which includes the believe in a personal self.
 
 ## Other recommended practices
 
