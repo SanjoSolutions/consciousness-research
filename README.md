@@ -7,7 +7,7 @@ Please also verify with a consciousness calibration technique if the information
 
 ## Works
 
-* "Truth vs. Falsehood - How to tell the difference" by David R. Hawkins: This book seems to be the most focused book on consciousness research of the books by David R. Hawkins. It states a list of the principles of the science of consciousness which seem to be a good basis for consciousness research.
+* "Truth vs. Falsehood - How to tell the difference" by David R. Hawkins: This book seems to be the most focused book on consciousness research out of the books by David R. Hawkins. It states a list of the principles of the science of consciousness which seem to be a good basis for consciousness research.
 
 ## Reference scale
 
