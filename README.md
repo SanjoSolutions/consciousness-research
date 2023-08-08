@@ -36,7 +36,7 @@ Please also verify with a consciousness calibration technique if the information
 * Surrendering ones will (at depth) to God seems to calibrate at 850.
 * Devotional acts seem to calibrate at 540.
 
-## Recommended pracices for consciousness calibration
+## Recommended practices for consciousness calibration
 
 * Always ask for permission before you calibrate something.
 * Always state explicitly the intention to serve God (i.e. in the form of "In the name of the highest good").
