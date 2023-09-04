@@ -143,8 +143,3 @@ I have once witnessed the calibration of calibrations that seem to have calibrat
 
 The book has been calibrated to calibrate at or above 866 and below 867.
 
-### Other calibrations
-
-| Content | Consciousness level / Consciousness level range |
-|---|---|
-| World of Warcraft (computer game) | at or above 557 and below 558 (this has been calibrated from a consciousness level close to the consciousness level range that has been calibrated) |
