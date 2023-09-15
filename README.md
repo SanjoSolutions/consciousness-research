@@ -76,7 +76,7 @@ This video demonstrates a variant of the O-ring method, which is also mentioned 
 
 [Demonstration](assets/a_o_ring_method.mp4)
 
-When the Os hold the calibration can be regarded as strong.
+When the Os hold, the calibration can be regarded as strong.
 
 ## Note regarding the consciousness level numbers
 
