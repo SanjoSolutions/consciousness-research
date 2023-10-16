@@ -40,7 +40,7 @@ Please also verify with a consciousness calibration technique if the information
 
 * Always ask for permission before you calibrate something.
 * Always state explicitly the intention to serve God (i.e. in the form of "In the name of the highest good").
-* Always only calibrate things if you have permission. Calibrating if you have permission seems fine. "Having permission" here seems to refer to the condition that a karmic ripeness for what is asked is there. In the books by David R. Hawkins it's termed "qualifying 'permission'".
+* Always only calibrate things if you have permission. Calibrating if you have permission seems fine. "Having permission" here seems to refer to the condition that a karmic ripeness for what is asked is there. In the books by David R. Hawkins the process is termed "qualifying 'permission'".
 
 From my experience revelation can reveal information that can be helpful for further inquiry with consciousness calibrations.
 
